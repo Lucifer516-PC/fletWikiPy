@@ -1,0 +1,100 @@
+[08/22/23 12:55:57] INFO     (WikiSearch|wikisearch) _configure_property(id, Column)                           mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(searched_on, Column)                  mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(search_keyword, Column)               mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(page_id, Column)                      mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(original_title, Column)               mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(url, Column)                          mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(images, Column)                       mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(links, Column)                        mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(references, Column)                   mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(coordinates, Column)                  mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(summary, Column)                      mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(content, Column)                      mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _configure_property(html, Column)                         mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) Identified primary key columns: ColumnSet([Column('id',   mapper.py:1989
+                             Integer(), table=<wikisearch>, primary_key=True, nullable=False)])                              
+                    INFO     (WikiSearch|wikisearch) constructed                                               mapper.py:1989
+[08/22/23 12:56:12] DEBUG    _process_command: get ['page', 'route'] {}                                local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'pwa'] {}                                  local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'web'] {}                                  local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'debug'] {}                                local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'platform'] {}                             local_connection.py:79
+[08/22/23 12:56:13] DEBUG    _process_command: get ['page', 'platformBrightness'] {}                   local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'width'] {}                                local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'height'] {}                               local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'windowWidth'] {}                          local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'windowHeight'] {}                         local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'windowTop'] {}                            local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'windowLeft'] {}                           local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'clientIP'] {}                             local_connection.py:79
+                    DEBUG    _process_command: get ['page', 'clientUserAgent'] {}                      local_connection.py:79
+[08/22/23 12:56:13] INFO     BEGIN (implicit)                                                                    base.py:2614
+                    INFO     PRAGMA main.table_info("wikisearch")                                                base.py:1669
+                    INFO     [raw sql] [SQL parameters hidden due to hide_parameters=True]                       base.py:1669
+                    INFO     COMMIT                                                                              base.py:2620
+                    DEBUG    _process_command: set ['page'] {'title': 'PyWiki'}                        local_connection.py:79
+                    DEBUG    _process_command: add [] {'to': 'page', 'at': '0'}                        local_connection.py:79
+                    DEBUG    _process_command: add [] {'to': 'page', 'at': '1'}                        local_connection.py:79
+                    INFO     page.on_event: page change                                                           page.py:463
+                             [{"i":"page","width":"1020.0"},{"i":"page","height":"719.0"}]                                   
+                    INFO     page.on_event: page resize 1020.0,719.0                                              page.py:463
+[08/22/23 12:56:15] INFO     page.on_event: _8 focus                                                              page.py:463
+[08/22/23 12:56:17] INFO     page.on_event: page change [{"i":"_8","value":"P"}]                                  page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Py"}]                                 page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Pyt"}]                                page.py:463
+[08/22/23 12:56:18] INFO     page.on_event: page change [{"i":"_8","value":"Pyth"}]                               page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Pytho"}]                              page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python"}]                             page.py:463
+[08/22/23 12:56:19] INFO     page.on_event: page change [{"i":"_8","value":"Python "}]                            page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python P"}]                           page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Pr"}]                          page.py:463
+[08/22/23 12:56:20] INFO     page.on_event: page change [{"i":"_8","value":"Python Pro"}]                         page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Prog"}]                        page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Progr"}]                       page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Progra"}]                      page.py:463
+[08/22/23 12:56:21] INFO     page.on_event: page change [{"i":"_8","value":"Python Program"}]                     page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programm"}]                    page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programmi"}]                   page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programmin"}]                  page.py:463
+[08/22/23 12:56:22] INFO     page.on_event: page change [{"i":"_8","value":"Python Programming"}]                 page.py:463
+[08/22/23 12:56:24] INFO     page.on_event: page change [{"i":"_8","value":"Python Programming "}]                page.py:463
+[08/22/23 12:56:25] INFO     page.on_event: page change [{"i":"_8","value":"Python Programming L"}]               page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programming La"}]              page.py:463
+[08/22/23 12:56:26] INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Lan"}]             page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Lang"}]            page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Langu"}]           page.py:463
+[08/22/23 12:56:27] INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Langua"}]          page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Languag"}]         page.py:463
+                    INFO     page.on_event: page change [{"i":"_8","value":"Python Programming Language"}]        page.py:463
+[08/22/23 12:56:30] INFO     page.on_event: _8 blur                                                               page.py:463
+                    INFO     page.on_event: _9 click                                                              page.py:463
+[08/22/23 12:56:46] INFO     (WikiSearch|wikisearch) _post_configure_properties() started                      mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop id                                        mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop searched_on                               mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop search_keyword                            mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop page_id                                   mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop original_title                            mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop url                                       mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop images                                    mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop links                                     mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop references                                mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop coordinates                               mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop summary                                   mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop content                                   mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) initialize prop html                                      mapper.py:1989
+                    INFO     (WikiSearch|wikisearch) _post_configure_properties() complete                     mapper.py:1989
+[08/22/23 12:56:46] INFO     BEGIN (implicit)                                                                    base.py:2614
+                    INFO     INSERT INTO wikisearch (searched_on, search_keyword, page_id, original_title, url,  base.py:1572
+                             images, links, "references", coordinates, summary, content, html) VALUES (?, ?, ?,              
+                             ?, ?, ?, ?, ?, ?, ?, ?, ?)                                                                      
+                    INFO     [generated in 0.02046s] [SQL parameters hidden due to hide_parameters=True]         base.py:1572
+                    INFO     COMMIT                                                                              base.py:2620
+[08/22/23 12:56:46] DEBUG    _process_command: add [] {'to': '_3', 'at': '1'}                          local_connection.py:79
+                    DEBUG    _process_command: add [] {'to': '_3', 'at': '2'}                          local_connection.py:79
+[08/22/23 12:57:15] INFO     page.on_event: _8 focus                                                              page.py:463
+[08/22/23 12:57:22] INFO     page.on_event: page change                                                           page.py:463
+                             [{"i":"page","windowwidth":"1020.0"},{"i":"page","windowheight":"719.0"},{"i":"page"            
+                             ,"windowtop":"0.0"},{"i":"page","windowleft":"0.0"},{"i":"page","windowminimized":"f            
+                             alse"},{"i":"page","windowmaximized":"false"},{"i":"page","windowfocused":"false"},{            
+                             "i":"page","windowfullscreen":"false"}]                                                         
+                    INFO     page.on_event: page window_event blur                                                page.py:463
